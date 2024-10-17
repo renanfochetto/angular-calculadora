@@ -4,56 +4,58 @@
             <br />
 
             <div class="calculadora">
-                <input id="resultado" type="text" class="form-control resultado" [value]="resultado" placeholder="0" disabled="disabled" />
+                <label for="resultado" class="visually-hidden">Resultado</label>
+                <input id="resultado" type="text" class="form-control resultado" [value]="resultado" placeholder="0"
+                    disabled="disabled" aria-label="Campo de resultado" />
 
                 <div class="row">
-                    <button (click)="calcular('acao', 'C')" type="button"
+                    <button aria-label="Limpar" (click)="calcular('acao', 'C')" type="button"
                         class="btn btn-dark btn-lg clear font-weight-light">C</button>
-                    <button (click)="calcular('acao', '/')" type="button"
+                    <button aria-label="Divisão" (click)="calcular('acao', '/')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">/</button>
-                    <button (click)="calcular('acao', '*')" type="button"
+                    <button aria-label="Multiplicação" (click)="calcular('acao', '*')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">x</button>
                 </div>
 
                 <div class="row">
-                    <button (click)="calcular('valor', '7')" type="button"
+                    <button aria-label="7" (click)="calcular('valor', '7')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">7</button>
-                    <button (click)="calcular('valor', '8')" type="button"
+                    <button aria-label="8" (click)="calcular('valor', '8')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">8</button>
-                    <button (click)="calcular('valor', '9')" type="button"
+                    <button aria-label="9" (click)="calcular('valor', '9')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">9</button>
-                    <button (click)="calcular('acao', '-')" type="button"
+                    <button aria-label="Subtração" (click)="calcular('acao', '-')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">-</button>
                 </div>
 
                 <div class="row">
-                    <button (click)="calcular('valor', '4')" type="button"
+                    <button aria-label="4" (click)="calcular('valor', '4')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">4</button>
-                    <button (click)="calcular('valor', '5')" type="button"
+                    <button aria-label="5" (click)="calcular('valor', '5')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">5</button>
-                    <button (click)="calcular('valor', '6')" type="button"
+                    <button aria-label="6" (click)="calcular('valor', '6')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">6</button>
-                    <button (click)="calcular('acao', '+')" type="button"
+                    <button aria-label="Adição" (click)="calcular('acao', '+')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">+</button>
                 </div>
 
                 <div class="row">
-                    <button (click)="calcular('valor', '1')" type="button"
+                    <button aria-label="1" (click)="calcular('valor', '1')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">1</button>
-                    <button (click)="calcular('valor', '2')" type="button"
+                    <button aria-label="2" (click)="calcular('valor', '2')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">2</button>
-                    <button (click)="calcular('valor', '3')" type="button"
+                    <button aria-label="3" (click)="calcular('valor', '3')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">3</button>
-                    <button (click)="calcular('acao', '=')" type="button" class="btn btn-dark btn-lg enter">=</button>
+                    <button aria-label="Resultado" (click)="calcular('acao', '=')" type="button"
+                        class="btn btn-dark btn-lg enter">=</button>
                 </div>
 
                 <div class="row" style="margin-top: -60px">
-                    <button (click)="calcular('valor', '0')" type="button"
+                    <button aria-label="0" (click)="calcular('valor', '0')" type="button"
                         class="btn btn-dark zero btn-lg font-weight-light">0</button>
-                    <button (click)="calcular('acao', '.')" type="button"
+                    <button aria-label="Decimal" (click)="calcular('acao', '.')" type="button"
                         class="btn btn-dark btn-lg font-weight-light">.</button>
                 </div>
-
             </div>
         </div>
     </div>
