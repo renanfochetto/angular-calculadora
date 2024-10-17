@@ -1,27 +1,21 @@
-# AngularCalculadora
+# 🧮 Calculadora
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+Uma **calculadora** desenvolvida em Angular que permite realizar operações básicas como adição, subtração, multiplicação e divisão.
 
-## Development server
+## 🚀 Tecnologias Usadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- ![Angular](https://img.shields.io/badge/Angular-FF3D00?style=flat-square&logo=angular&logoColor=white)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-## Code scaffolding
+## ✨ O que faz
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Esta aplicação permite aos usuários:
 
-## Build
+- Realizar cálculos simples.
+- Usar uma interface intuitiva e responsiva.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💬 Agradecimento
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Obrigado por conferir este projeto! Espero que seja útil e divertida de usar. Sinta-se à vontade para explorar, fazer sugestões ou contribuir. Juntos, podemos torná-la ainda melhor! 🤝✨
