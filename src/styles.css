@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background: rgb(56, 54, 54);
+    background: #E6E6FA;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;

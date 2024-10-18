@@ -1,7 +1,7 @@
 .calculadora {
     border: solid 0.0625rem #000;
     padding: 1.5rem;
-    background-color: #696666;
+    background-color: #3e3e3e;
     border-radius: 0.625rem;
     box-shadow: 0.0625rem 0.0625rem 0.3125rem #000;
 }
@@ -22,14 +22,20 @@
     height: 3.125rem;
     margin: 0.3125rem;
     box-shadow: 0.0625rem 0.0625rem 0.0625rem #000;
+    background-color: #4caf50;
+    color: #fff;
 }
 
 .clear {
     width: 8.125rem;
+    background-color: #f44336;
+    color: #fff;
 }
 
 .enter {
     height: 6.875rem;
+    background-color: #2196f3;
+    color: #fff;
 }
 
 .zero {
@@ -43,4 +49,6 @@
     margin-bottom: 1.25rem;
     border: solid 0.0625rem #000;
     box-shadow: 0.0625rem 0.0625rem 0.0625rem #000;
+    background-color: #fff;
+    color: #000;
 }
